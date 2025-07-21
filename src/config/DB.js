@@ -1,6 +1,5 @@
 const { Client } = require('pg');
 
-//idnvcoancin
 
 // Create a new client instance
 const client = new Client({
