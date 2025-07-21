@@ -1,5 +1,8 @@
 const { Client } = require('pg');
 
+//dniunduimude
+//udnumqodm
+
 
 // Create a new client instance
 const client = new Client({
@@ -9,6 +12,10 @@ const client = new Client({
     password: '20Carvalho01*',
     port: 5432
 })
+
+
+
+
 
 // Connect to the database
 client.connect()
