@@ -1,5 +1,7 @@
 const { Client } = require('pg');
 
+//teste
+
 // Create a new client instance
 const client = new Client({
     user: 'postgres',
