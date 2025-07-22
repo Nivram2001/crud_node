@@ -8,7 +8,6 @@ const client = new Client({
     password: '20Carvalho01*',
     port: 5432
 })
-
 // Connect to the database
 client.connect()
     .then(() => {
