@@ -1,14 +1,13 @@
 const { Client } = require('pg');
+require('dotenv').config(); // Load environment variables from .env file
 
-
-    
 // Create a new client instance
 const client = new Client({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'API_StatsArena',
-    password: '20Carvalho01*',
-    port: 5432
+    user: process.env.USER,
+    host: process.env.HOST,
+    database: process.env.DATABASE,
+    password: process.env.PASSWORD,
+    port: process.env.PORT
 })
 // Connect to the database
 client.connect()
