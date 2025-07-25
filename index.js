@@ -6,7 +6,6 @@ const matchRoutes = require('./src/routers/matchRouters');
 const playerRoutes = require('./src/routers/playerRouters');
 const teamRoutes = require('./src/routers/teamRouters')
 
-
 const app = express();
 
 const PORT = 3001;
