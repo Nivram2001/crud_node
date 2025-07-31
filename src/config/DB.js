@@ -9,7 +9,7 @@ const client = new Client({
     password: process.env.PASSWORD,
     port: process.env.PORT
 })
-// or you can use the connection string directly
+
 // Connect to the database
 client.connect()
     .then(() => {
