@@ -10,6 +10,7 @@ const client = new Client({
     port: process.env.PORT
 })
 
+
 // Connect to the database
 client.connect()
     .then(() => {
