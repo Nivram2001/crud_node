@@ -21,4 +21,3 @@ app.use('/team',teamRoutes);
 app.listen(PORT, () => {
     console.log('Listen on PORT::', PORT);
 })
-
